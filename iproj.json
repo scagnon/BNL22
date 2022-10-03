@@ -1,0 +1,20 @@
+{
+    "description": "Arcad Demo",
+    "version": "0.0.1",
+    "includePath": [
+        "BNL22_SRC/QPROTOSRC  "
+    ],
+    "repository": "git@github.com:scagnon/BNL22.git",
+    "objlib": "&verlibbnl22",
+    "curlib": "*CRTDFT",
+    "extensions": {
+        "arcad": {
+            "code": "BNL22",
+            "libraryPrefix": "BNL",
+            "iasp": "*SYSBAS",
+            "validated": true
+        }
+    },
+    "buildCommand": "elias compile {branch}",
+    "compileCommand": "elias compile {branch} -f {filename}"
+}

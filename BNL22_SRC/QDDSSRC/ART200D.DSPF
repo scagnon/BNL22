@@ -90,10 +90,11 @@
      A  41                                  ERRMSG('A description is mandatory'-
      A                                       41)
      A                                      CHECK(LC)
-     A                                  7  4'Familly. . . . . . . . .'
-     A                                  9  4'Reference sale price . .'
-     A                                 11  4'Stock price  . . . . . .'
-     A                                 12  4'Minimum stock  . . . . .'
+     A                                  7  4'Familly '
+     A                                  9  4'Reference sale price '
+     A                                 11  4'Stock price '
+     A                                 12  4'Minimum stock '
+     A                                 15  4'Maximum stock '
      A            ARTIFA    R        B  7 29REFFLD(FARTI/ARTIFA *LIBL/ARTICLE)
      A  40                                  ERRMSGID(ERR0001 *LIBL/SAMMSGF 40)
      A            ARSALEPR  R        B  9 29REFFLD(FARTI/ARSALEPR *LIBL/ARTICLE)
@@ -101,6 +102,7 @@
      A            ARSTOCK   R        B 13 29REFFLD(FARTI/ARSTOCK *LIBL/ARTICLE)
      A                                 13  4'Stock  . . . . . . . . .'
      A            ARMINQTY  R        B 12 29REFFLD(FARTI/ARMINQTY *LIBL/ARTICLE)
+     A            ARMAXQTY  R        B 15 29REFFLD(FARTI/ARMINQTY *LIBL/ARTICLE)
      A            FAMDESC       30A  O  7 34
      A                                 23 15'F4=Prompt'
      A                                      COLOR(BLU)

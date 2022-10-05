@@ -1,0 +1,7 @@
+.*
+!**/.ibmi.json
+!**/.elias
+!**/.ibmi
+!.gitignore
+!.arcadignore
+.elias/hashList.json

@@ -8,5 +8,6 @@
              CRTDUPOBJ  OBJ(DETORD) FROMLIB(*LIBL) OBJTYPE(*FILE) +
                           TOLIB(QTEMP) NEWOBJ(DETORD) CST(*NO) +
                           TRG(*NO)
+             MONMSG CPF0000             
              OVRDBF     FILE(TMPDETORD) TOFILE(QTEMP/DETORD)
              CRTORD     CUID(&CUID)

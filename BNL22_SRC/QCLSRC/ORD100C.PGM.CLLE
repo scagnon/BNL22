@@ -11,3 +11,4 @@
              MONMSG CPF0000             
              OVRDBF     FILE(TMPDETORD) TOFILE(QTEMP/DETORD)
              CRTORD     CUID(&CUID)
+             ENDPGM

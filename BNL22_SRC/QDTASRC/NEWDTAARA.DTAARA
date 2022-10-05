@@ -1,0 +1,6 @@
+      /*%METADATA                                                     */
+      /* %TEXT DEmo New DTAARA                                   */
+      /*%EMETADATA                                                    */
+
+
+CRTDTAARA DTAARA(&O/&N) TYPE(*CHAR) LEN(20) VALUE('COMMON_BENELUX')
